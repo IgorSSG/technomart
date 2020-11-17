@@ -13,66 +13,107 @@
     <header class="main-header">
 
   <!-- Верхний хедер -->
-      <section class="upper-section">
-        <h2 class="vissualy-hidden"> Шапка сайта</h2>
-        <div class="container">
-          <a class="logo" href="#">
-            <img src="#" alt="">
-          </a>
-          <div class="search-section">
-            <form class="" action="index.html" method="post">
-              <input type="text" name="search" value="" placeholder="Поиск" aria-label="Поиск">
-              <label class="search-label" for="search"></label>
-            </form>
-          </div>
-          <ul class="user-instruments">
-            <li>
-              <a class="bookmarks upper-section-button" href="#">Закладки: 0</a>
-            </li>
-            <li>
-              <a class="cart upper-section-button" href="#">Корзина: 0</a>
-            </li>
-          </ul>
-          <a class="user-checkout" href="#">Оформить заказ</a>
-        </div>
-      </section>
+      <h2 class="vissualy-hidden"> Шапка сайта</h2>
+      <a class="logo" href="#">
+        <img src="#" alt="">
+      </a>
+      <div class="search-section">
+        <form class="" action="index.html" method="post">
+          <input type="text" name="search" value="" placeholder="Поиск" aria-label="Поиск">
+          <label class="search-label" for="search"></label>
+        </form>
+      </div>
+      <ul class="user-instruments">
+        <li>
+          <a class="bookmarks upper-section-button" href="#">Закладки: 0</a>
+        </li>
+        <li>
+          <a class="cart upper-section-button" href="#">Корзина: 0</a>
+        </li>
+      </ul>
+      <a class="user-checkout" href="#">Оформить заказ</a>
+
 
   <!-- Информация в хедере -->
-      <section class="info-section">
+      <div class="container info-section">
         <h2 class="vissualy-hidden">Краткая информация и контакты</h2>
-        <div class="container">
-          <p class="text-about-company">Интернет-магазин строительных материалов и инструментов для рем</p>
-          <div class="contacts">
-            <a class="button phone-search"href=tel:+78125550555"><span>+7 (812) 555-05-55</span></a>
-            <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-          </div>
-          <ul class="user-main-button">
-            <li>
-              <a class="button" href="#">Войти</a>
-            </li>
-            <li>
-              <a class="button" href="#">Регистрация</a>
-            </li>
-          </ul>
+        <p class="text-about-company">
+          Интернет-магазин<br>
+          строительных материалов<br>
+          и инструментов для ремонта
+        </p>
+        <div class="contacts">
+          <a class="button phone-search"href="tel:+78125550555"><span>+7 (812) 555-05-55</span></a>
+          <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
-      </section>
+        <ul class="user-main-button">
+          <li>
+            <a class="button" href="#">Войти</a>
+          </li>
+          <li>
+            <a class="button" href="#">Регистрация</a>
+          </li>
+        </ul>
+      </div>
 
       <!-- Навигационное меню -->
-      <nav class="main-navigation">
-        <div class="container">
-          <ul class="main-navigetion-list">
-            <li><a href="" class="main-navigation-item">Главная</a></li>
-            <li><a href="" class="main-navigation-item">Компания</a></li>
-            <li><a href="" class="main-navigation-item">Каталог</a></li>
-            <li><a href="" class="main-navigation-item">Новости</a></li>
-            <li><a href="" class="main-navigation-item">Спецпредложения</a></li>
-            <li><a href="" class="main-navigation-item">Доставка</a></li>
-            <li><a href="" class="main-navigation-item">Контакты</a></li>
-          </ul>
-        </div>
+      <nav class="container main-navigation">
+        <ul class="main-navigetion-list">
+          <li><a href="" class="main-navigation-item">Главная</a></li>
+          <li><a href="" class="main-navigation-item">Компания</a></li>
+          <li><a href="" class="main-navigation-item">Каталог</a></li>
+          <li><a href="" class="main-navigation-item">Новости</a></li>
+          <li><a href="" class="main-navigation-item">Спецпредложения</a></li>
+          <li><a href="" class="main-navigation-item">Доставка</a></li>
+          <li><a href="" class="main-navigation-item">Контакты</a></li>
+        </ul>
       </nav>
     </header>
-    
+
+  <!-- Инфоблок -->
+    <main>
+      <!-- верзний промоблок -->
+      <section class="container promoblock-section">
+        <h2 class="visually-hidden">Товары скидки доставка</h2>
+        <ul class="promo-list">
+          <li class="promo-item">
+            <h3 class="promo-title">Материалы</h3>
+            <a href="" class="button"></a>
+            <div class="promo-icon-placeholder"></div>
+          </li>
+          <li class="promo-item">
+            <h3 class="promo-title">Инструмент</h3>
+            <a href="" class="button"></a>
+            <div class="promo-icon-placeholder"></div>
+          </li>
+          <li class="promo-item">
+            <h3 class="promo-title">Техника</h3>
+            <a href="" class="button"></a>
+            <div class="promo-icon-placeholder"></div>
+          </li>
+        </ul>
+      </section>
+      <!-- Слайдер -->
+      <section class="catalog-slider">
+        <figure class="catalog-slider-lide active-slide">
+          <img src="" alt="" class="catalog-slider-img">
+          <h3 class="catalog-slider-title">Дрели</h3>
+          <p class="catalog-slider-caption">Соседям на радость!</p>
+        </figure>
+        <figure class="catalog-slider-lide ">
+          <img src="" alt="" class="catalog-slider-img">
+          <h3 class="catalog-slider-title">Перфораторы</h3>
+          <p class="catalog-slider-caption">Настоящие мужские игрушки</p>
+        </figure>
+        <button class="catalog-slider__control next"  ></button>
+        <button class="catalog-slider__control"></button>
+        <ul class="slider-pagination">
+          <li><button class="catalog-slider-tab"></button></li>
+          <li><button class="catalog-slider-tab"></button></li>
+        </ul>
+        <a href="" class="button">Открыть каталог</a>
+      </section>
+    </main>
 
   </body>
 
