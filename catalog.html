@@ -86,9 +86,69 @@
     <!-- Заголовок и содержимое каталога -->
 
     <h1 class="catalog-header">Перфораторы</h1>
-     <div class="container">
-       <section class="filters">
-
+      <div class="container">
+        <section class="filters">
+          <div class="filters-headline">
+          <h2 class="filter-headline"></h2>
+            <form action="" class="filters-form">
+              <fieldeset class="filter-section">
+                <legend class="filter-section-header">Цена:</legend>
+                <div class="duble-range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <button class="range-toggle">
+                    <span class="visually-hidden">Контроллер ввода стоимости, минимальная цена</span>
+                  </button>
+                  <button class="range-toggle">
+                    <span class="visually-hidden">Контроллер ввода стоимости, максимальная цена</span>
+                  </button>
+                </div>
+                <div class="price-controls">
+                  <input type="text" class="price" value="0">
+                  <input type="text" class="price" value="30000">
+                </div>
+              </fieldeset>
+              <fieldset class="filter-section">
+                <legend class="filter-section-header">Производители:</legend>
+                <ul class="checklist">
+                  <li class="checklist-item">
+                    <input type="checkbox" class="visually-hidden">
+                    <label for="">BOSH</label>
+                  </li>
+                  <li class="checklist-item">
+                    <input type="checkbox" class="visually-hidden">
+                    <label for="">Интескол</label>
+                  </li>
+                  <li class="checklist-item">
+                    <input type="checkbox" class="visually-hidden">
+                    <label for="">Makita</label>
+                  </li>
+                  <li class="checklist-item"><input type="checkbox" class="visually-hidden">
+                    <label for="">Dewalt</label>
+                  </li>
+                  <li class="checklist-item">
+                    <input type="checkbox" class="visually-hidden">
+                    <label for="">Hitachi</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="filter-section">
+                <legend class="filter-section-header">Питание:</legend>
+                <ul class="radio-list">
+                  <li class="radio-list-item">
+                    <input type="radio" class="visually-hidden">
+                    <label for="">Аккумуляторные</label>
+                  </li>
+                  <li class="radio-list-item">
+                    <input type="radio" class="visually-hidden">
+                    <label for="">Сетевые</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button class="button" type="submit"</t>Показать</button>
+            </form>
+           </div>
        </section>
      </div>
 
