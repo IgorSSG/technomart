@@ -15,6 +15,13 @@ body{
   padding: 0;
   font-size: 14px;
   line-height: 18px;
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .visually-hidden {
@@ -70,16 +77,26 @@ body{
   background-color: #ba2732;
 }
 
+.search-section{
+  width: auto;
+  height: 100%;
+}
+
 .search-form{
   position: relative;
   width: 270px;
   height: 100%;
 }
 
-.search-form input{
-
-
+.search-form:hover{
+  background-color: #212a3a;
 }
+
+.search-form:focus{
+  background-color: #fff;
+}
+
+
 
 .search-label{
   position: absolute;
@@ -90,6 +107,7 @@ body{
   display: flex;
   justify-content: center;
   fill: #fff;
+
 }
 
 .search-label-submit{
@@ -101,18 +119,30 @@ body{
   height: 100%;
   margin: 0 13px 3px -9px;
   border: 0;
-  fill: #fff;
   opacity: .3;
+  fill: #fff;
+
+
+
 }
 
 .header-top-line-icon-search{
   width: 17px;
   margin: 0;
+
+}
+
+.search-form:hover .header-top-line-icon{
+  opacity: 1;
+}
+
+.input-request:focus+.search-label .header-top-line-icon{
+  fill: #ee3643;;
+  opacity: 1;
 }
 
 .input-request{
   font: inherit;
-  opacity: .3;
   background-color: #293449;
   padding: 0 10px 0 49px;
   border: 0;
@@ -120,5 +150,70 @@ body{
   width: 100%;
   outline: 0;
   color: #fff;
-  fill: #fff;
+
+}
+
+.input-request::placeholder{
+  color: #fff;
+
+}
+
+.input-request:hover{
+  background-color: #212a3a;
+}
+
+.input-request:focus{
+  background-color: #fff;
+  color: #000;
+}
+
+.search-section:hover{
+background-color: #212a3a;
+}
+
+.upper-section-button{
+  border-radius: 0;
+  height: 100%;
+  width: 150px;
+  text-decoration: none;
+}
+
+.upper-section-button:active {
+  background-color: #161d29;
+  color: rgba(255,255,255,.5);
+}
+
+.upper-section-button:focus, .upper-section-button:hover {
+  background-color: #212a3a;
+}
+
+.button{
+  align-items: center;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 11px;
+  line-height: 16px;
+
+  outline: 0;
+}
+.upper-section-button:active .header-top-line-icon{
+  opacity: .3;
+}
+.upper-section-button:hover .header-top-line-icon{
+  opacity: 1;
+}
+
+.user-checkout{
+  background-color: #63a63e;
+}
+
+.user-checkout:focus, .user-checkout:hover{
+  background-color: #5fbb2d;
+}
+
+.user-checkout:active{
+  background-color: #518534;
 }
