@@ -15,6 +15,7 @@ body{
   padding: 0;
   font-size: 14px;
   line-height: 18px;
+  color: #000;
 
 }
 
@@ -176,6 +177,7 @@ background-color: #212a3a;
   height: 100%;
   width: 150px;
   text-decoration: none;
+  color: #fff;
 }
 
 .upper-section-button:active {
@@ -230,9 +232,9 @@ background-color: #212a3a;
   font-size: 16px;
   line-height: 23px;
   align-items: center;
-  margin: 4px 0 1px 53px;
+  margin: 4px -2px 1px 53px;
   padding: 0;
-  max-width: 197px;
+  max-width:200px;
   font-style: italic;
   color: #ee3643;
 }
@@ -249,9 +251,7 @@ background-color: #212a3a;
   border: 3px solid #fff;
   width: 270px;
   min-height: 45px;
-  align-items: center;
-  position: relative;
-  font-size: 21px;
+  align-items: center;font-size: 21px;
   line-height: 21px;
 }
 
@@ -276,16 +276,9 @@ background-color: #212a3a;
   max-width: 270px;
 }
 
-.user-main-button{
-  list-style: none;
-  display: flex;
-  margin: 0px;
-  padding: 0;
-}
 
-.user-button{
 
-}
+
 
 .main-navigation{
 min-height:
@@ -325,6 +318,45 @@ min-height:
   color: #fff;
   cursor: pointer;
   outline: 0;
+}
+
+.user-main-button{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  margin-left: 70px;
+  padding: 0;
+
+}
 
 
+.user-button{
+  background-color:#fff;
+  color: black;
+  font-size: 21px;
+  line-height: 21px;
+  margin-left: 10px;
+  height: 45px;
+  min-width: 150px;
+
+}
+
+.user-button-login{
+  min-width: 121px;
+  margin-left: 0px;
+}
+
+.user-button-login::before{
+  content: "";
+  display: inline-block;
+  background-position: 0 0;
+  width: 20px;
+  height: 17px;
+  margin: 0 12px 0 -10px;
+  vertical-align: top;
+  background-image: url(../img/icons/icon-login.svg);
+}
+
+.user-button-login::before, .user-button-login:active::before{
+  opacity: .3;
 }
