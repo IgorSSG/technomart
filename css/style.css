@@ -314,10 +314,18 @@ min-height:
   padding-right: 30px;
   padding-bottom: 23px;
   padding-left: 30px;
-  padding: 0;
   color: #fff;
   cursor: pointer;
   outline: 0;
+}
+
+.main-navigation-item a:hover{
+  background-color: #293449;
+}
+
+.main-navigation-item a:active{
+  background-color: #293449;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .user-main-button{
@@ -341,6 +349,14 @@ min-height:
 
 }
 
+.user-button:hover{
+  color: #ee3643;
+}
+
+.user-button:active{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .user-button-login{
   min-width: 121px;
   margin-left: 0px;
@@ -355,6 +371,10 @@ min-height:
   margin: 0 12px 0 -10px;
   vertical-align: top;
   background-image: url(../img/icons/icon-login.svg);
+}
+
+.user-button-login:hover::before{
+  opacity: 1;
 }
 
 .user-button-login::before, .user-button-login:active::before{
