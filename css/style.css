@@ -462,7 +462,16 @@ min-height:
   margin-top: 12px;
   max-width: 135px;
   background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
 
+}
+
+.promo-button:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.promo-button:active{
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .promo-icon-placeholder{
@@ -521,6 +530,26 @@ min-height:
   position: absolute;
 }
 
+.catalog-slider-button{
+  background-color: #ee3643;
+  height: 38px;
+  width: 195px;
+  border-radius: 3px;
+  cursor: pointer;
+  bottom: 22px;
+  left: 25px;
+  text-transform: uppercase;
+
+}
+
+.catalog-slider-button:hover{
+  background-color: #ca2c37;
+}
+
+.catalog-slider-button:active{
+  background-color: #ba2732;
+}
+
 .catalog-slider__control{
   border: 0;
   background-color: transparent;
@@ -570,4 +599,8 @@ min-height:
 .promo-list-vertical{
   flex-direction: column;
   margin-bottom: -20px;
+}
+
+.promo-item-green{
+  background-color: #8ed78f;
 }
