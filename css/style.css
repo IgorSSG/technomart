@@ -604,3 +604,75 @@ min-height:
 .promo-item-green{
   background-color: #8ed78f;
 }
+
+.popular{
+  margin-top: 53px;
+}
+
+.pipular-headline{
+  background-color: #f9f5f0;
+  min-height: 89px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.button-allpupular{
+  background-color: #ee3643;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: 24px;
+  width: 253px;
+  height: 38px
+}
+
+.button-allpupular:hover{
+  background-color: #ca2c37;
+}
+
+.button-allpupular:active{
+  background-color: #ba2732;
+}
+
+.popular-header{
+  margin-right:auto;
+  margin-left: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.popular-products{
+  margin-bottom: 20px;
+
+
+}
+
+.popular-products-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.popular-products-item{
+  border: 1px solid #eaeaea;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.product-buttons{
+  display: block;
+}
