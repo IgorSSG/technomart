@@ -676,3 +676,20 @@ min-height:
 .product-buttons{
   display: block;
 }
+
+.products-header{
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  max-width: 158px;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.products-discount,
+.products-header,
+.products-price {
+  font-family: "PT Sans",Arial,sans-serif;
+}
