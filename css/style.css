@@ -607,6 +607,7 @@ min-height:
 
 .popular{
   margin-top: 53px;
+  margin-bottom: 65px;
 }
 
 .popular-headline{
@@ -741,8 +742,8 @@ min-height:
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* display: flex; */
-  display: none;
+  display: flex;
+  /* display: none; */
 }
 
 .product-button{
@@ -773,6 +774,14 @@ min-height:
 
 }
 
+.product-button-bookmark:hover{
+  border: 3px solid #32425c;
+}
+
+.product-button-bookmark:active{
+  opacity: 0.3;
+}
+
 .product-button-buy::before{
   position: absolute;
   width: 15px;
@@ -786,6 +795,19 @@ min-height:
 
 .product-button-buy:hover::before{
   opacity: 1;
+}
+
+.product-button-buy:active::before{
+  opacity: 1;
+}
+
+.product-button-buy:hover{
+  background-color: #5fbb2d;
+}
+
+.product-button-buy:active{
+  background-color: #518534;
+
 }
 
 .popular-manufacturers{
@@ -821,3 +843,64 @@ margin: 0 20px 20px 0;
 .popular-manufacturers-item:hover {
   box-shadow: 0 10px 25px 0 rgba(41,52,73,.5);
 }
+
+
+.popular-manufacturers-item:active {
+  box-shadow: 0 5px 15px 0 rgba(41,52,73,.5);
+
+
+}
+
+.manufacturers-link img:active{
+  opacity: 0.3;
+}
+
+.servises{
+  background-color: #f4f8f9;
+  padding-top: 65px;
+
+}
+
+.sevis-wrapper{
+  min-width: 940px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.servises-header{
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.servises_text{
+  line-height: 24px;
+  font-size: 13px;
+  font-family: "PT Sans",Arial,sans-serif;
+  align-self: stretch;
+  margin: 0;
+  margin-top: 28px;
+}
+
+.servises-slider{
+  display: flex;
+  align-self: stretch;
+  margin-top: 20px;
+}
+
+.slider-nav{
+  list-style: none;
+  margin: 0;
+  padding: 50px 0;
+  position: relative;
+  align-self: flex-start;
+}
+
+.servises-button{
+  background-color: #32425c;
+}
+
+
+.servises-slider{}
