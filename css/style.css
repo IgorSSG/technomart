@@ -995,3 +995,88 @@ margin: 0 20px 20px 0;
   background-color: #ee3643;
   text-transform: uppercase;
 }
+
+.technomart-info{
+  padding-top: 74px;
+  padding-bottom: 86px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.about-us{
+  margin-right: auto;
+}
+
+.about-us-header{
+  line-height: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+
+}
+
+.about-us-text{
+  line-height: 24px;
+  font-size: 13px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-family: "PT Sans",Arial,sans-serif;
+}
+
+.about-us-list{
+  font-weight: 600;
+  margin: 21px 0 0;
+  padding: 0;
+  list-style:none;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+.about-us-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+
+.about-us-item::before{
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+  margin-right: 10px;
+  align-items: baseline;
+}
+
+.about-us-button{
+  width: 220px;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+
+.button-red{
+  background-color: #ee3643
+}
+
+.about-us-button-wide{
+  min-width: 220px;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+
+.about-us-contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-left: auto;
+  align-items: flex-start;
+}
+
+.about-us-map{
+  margin: 0;
+  margin-top:32px;
+}
