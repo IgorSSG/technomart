@@ -1066,6 +1066,7 @@ margin: 0 20px 20px 0;
   min-width: 220px;
   margin-top: 35px;
   text-transform: uppercase;
+  align-self: stretch;
 }
 
 .about-us-contacts{
@@ -1079,4 +1080,80 @@ margin: 0 20px 20px 0;
 .about-us-map{
   margin: 0;
   margin-top:32px;
+}
+
+.main-footer{
+  margin-top: 0;
+  background-color: #32425c;
+}
+
+.footer-first-line{
+  line-height: 24px;
+  font-size: 18px;
+  min-height: 193px;
+}
+
+.footer-left-block{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-logo-link{
+  width: 220px;
+  height: 68px;
+  background-color: #ee3643;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  margin-top: 0;
+  box-shadow: 0 5px 0 0 #b62530;
+}
+
+.footer-logo-link img{
+  width: 138;
+  height: 23;
+}
+
+.footer-adress{
+
+  margin-top: 28px;
+  margin-bottom: auto;
+  color: #fff;
+  min-width: 325px;
+}
+
+.footer-right-block{
+  display: flex;
+}
+
+.footer-nav-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.footer-nav-list li{
+
+
+  margin: 20px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation-item{
+  display: block;
 }
