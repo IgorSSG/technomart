@@ -496,19 +496,21 @@
       <div class="modal-input-group">
         <p class="modal-group modal-entry">
           <label for="" class="modal-label">Ваше имя:</label>
-          <input type="text" class="modal-input">
+          <input type="text" class="modal-input" placeholder="Имя Фамилия">
         </p>
         <p class="modal-group modal-entry">
           <label for="" class="modal-label">Ваш e-mail:</label>
-          <input type="text" class="modal-input">
+          <input type="text" class="modal-input" placeholder="email@example.com">
         </p>
       </div>
-      <p class="modal-entry">
+      <div class="modal-input-group">
+      <p class="modal-group modal-entry modal-entry-text">
         <label for="" class="modal-label">Текст письма:</label>
-        <input type="text" class="modal-input">
+        <textarea type="text" class="modal-input" cols="30" rows="6" placeholder="В свободной форме"></textarea>
       </p>
-      <footer class="modal-footer">
-        <button class="modal-button">Отправить</button>
+      </div>
+      <footer class="modal-footer modal-footer-form">
+        <button class="button modal-button button-red">Отправить</button>
       </footer>
     </form>
     <button class="modal-close" type="button" aria-label="Закрыть всплывающее окно с обратной связью"></button>

@@ -1365,7 +1365,7 @@ margin: 0 20px 20px 0;
 
 .modal-feedback{
   width: 620px;
-  height: 424px;
+  height: 436px;
   margin-top: -212px;
   margin-left: -310px;
   background: #fff;
@@ -1374,11 +1374,11 @@ margin: 0 20px 20px 0;
 .modal-form{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: stretch;
   height: 100%;
   width: 100%;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 
 }
 
@@ -1392,6 +1392,12 @@ margin: 0 20px 20px 0;
 
 .modal-input-group{
   display: flex;
+  margin-right: 80px;
+  margin-left: 80px;
+
+  justify-content: space-between;
+  width: 460px;
+  margin-bottom: 22px;
 }
 
 .modal-group{
@@ -1408,12 +1414,12 @@ margin: 0 20px 20px 0;
   margin-top: 13px;
   width: 100%;
 
+
+
+
 }
 
-.modal-entry{
-  display: flex;
-  flex-direction: column;
-}
+
 
 .modal-label{
 
@@ -1425,4 +1431,22 @@ margin: 0 20px 20px 0;
   display: inline-block;
   vertical-align: top;
   width: 220px;
+}
+.modal-entry-text .modal-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 460px;
+  align-self: stretch;
+  height: 110px;
+  resize: none;
+}
+
+.modal-footer-form{
+  margin-top: auto;
+}
+
+.modal-button{
+  flex: 1;
+  text-transform: uppercase;
 }
