@@ -1370,6 +1370,7 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   margin-left: -310px;
   background: #fff;
   box-shadow: 0 -7px 0 0 #ee3643;
+  animation: bounce .6s;
 
 }
 
@@ -1472,6 +1473,7 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   margin-left: -470px;
   box-shadow:0 0px 15px 0px rgba(0,0,0,.5);
   outline: 0;
+  animation: bounce .6s;
 }
 
 .modal-map-iframe{
