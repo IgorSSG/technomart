@@ -1479,3 +1479,64 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
 .modal-map-iframe{
   border: 0;
 }
+
+.user-profile{
+  margin-left: auto;
+  align-items: flex-start;
+
+}
+
+.user-info-button{
+  width: 300px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;;
+  line-height: 21px;
+  font-size: 21px;
+  position: relative;
+}
+
+.user-profile-link{
+  color: #000;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  align-items: center;
+  color: #000;
+  justify-content: flex-start;
+  padding-left: 47px;
+}
+
+.user-profile-link::before{
+  content: "";
+  background-image: url(../img/icons/icon-user.svg);
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  left: 14px;
+  top: 13px;
+  opacity: .3;
+}
+
+.user-navigation{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+}
+
+.log-out{
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icons/icon-logout.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  opacity: .3;
+  outline: 0;
+}
