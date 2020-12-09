@@ -145,41 +145,43 @@
               <legend class="filter-section-header visually-hidden">Производители:</legend>
               <h3 class="filter-section-header">Производители:</h3>
               <ul class="checklist">
-                <li class="checklist-item">
-                  <input type="checkbox" class="visually-hidden">
-                  <label for="">BOSH</label>
+                <li class="filter-item">
+                  <input id="bosh" type="checkbox" class="visually-hidden filter-input" checked>
+                  <label for="bosh" class="input-label">BOSH</label>
                 </li>
-                <li class="checklist-item">
-                  <input type="checkbox" class="visually-hidden">
-                  <label for="">Интескол</label>
+                <li class="filter-item">
+                  <input id="interscol" type="checkbox" class="visually-hidden filter-input">
+                  <label for="interscol" class="input-label">Интескол</label>
                 </li>
-                <li class="checklist-item">
-                  <input type="checkbox" class="visually-hidden">
-                  <label for="">Makita</label>
+                <li class="filter-item">
+                  <input id="Makita" type="checkbox" class="visually-hidden filter-input" checked>
+                  <label for="Makita" class="input-label">Makita</label>
                 </li>
-                <li class="checklist-item"><input type="checkbox" class="visually-hidden">
-                  <label for="">Dewalt</label>
+                <li class="filter-item">
+                  <input id="Dewalt" type="checkbox" class="visually-hidden filter-input">
+                  <label for="Dewalt" class="input-label">Dewalt</label>
                 </li>
-                <li class="checklist-item">
-                  <input type="checkbox" class="visually-hidden">
-                  <label for="">Hitachi</label>
+                <li class="filter-item">
+                  <input id="Hitachi" type="checkbox" class="visually-hidden filter-input">
+                  <label for="Hitachi" class="input-label">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
             <fieldset class="filter-section">
-              <legend class="filter-section-header">Питание:</legend>
+              <legend class="filter-section-header visually-hidden">Питание:</legend>
+              <h3 class="filter-section-header">Питание:</h3>
               <ul class="radio-list">
-                <li class="radio-list-item">
-                  <input type="radio" class="visually-hidden">
-                  <label for="">Аккумуляторные</label>
+                <li class="filter-item">
+                  <input id="accumilator" name="power" type="radio" class="visually-hidden filter-input-radio" checked>
+                  <label for="accumilator" class="input-label">Аккумуляторные</label>
                 </li>
-                <li class="radio-list-item">
-                  <input type="radio" class="visually-hidden">
-                  <label for="">Сетевые</label>
+                <li class="filter-item">
+                  <input id="power-line" name="power"  type="radio" class="visually-hidden filter-input-radio">
+                  <label for="power-line" class="input-label">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
-            <button class="button" type="submit" </t>Показать</button>
+            <button class="button filter-submit button-white" type="submit" </t>Показать</button>
           </form>
 
       </section>
