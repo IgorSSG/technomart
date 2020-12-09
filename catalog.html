@@ -121,25 +121,29 @@
         </div>
           <form action="" class="filters-form">
             <fieldset class="filter-section">
-              <legend class="filter-section-header">Цена:</legend>
+              <legend class="filter-section-header visually-hidden">Цена:</legend>
+              <h3 class="filter-section-header"> Цена:</h3>
+              <div class="filter-price-range">
               <div class="duble-range-controls">
                 <div class="scale">
                   <div class="bar"></div>
                 </div>
-                <button class="range-toggle">
+                <button class="range-toggle range-toggle-min">
                   <span class="visually-hidden">Контроллер ввода стоимости, минимальная цена</span>
                 </button>
-                <button class="range-toggle">
+                <button class="range-toggle range-toggle-max">
                   <span class="visually-hidden">Контроллер ввода стоимости, максимальная цена</span>
                 </button>
               </div>
+              </div>
               <div class="price-controls">
-                <input type="text" class="price" value="0">
-                <input type="text" class="price" value="30000">
+                <input type="number" class="price-input" value="0">
+                <input type="number" class="price-input" value="30000">
               </div>
             </fieldset>
             <fieldset class="filter-section">
-              <legend class="filter-section-header">Производители:</legend>
+              <legend class="filter-section-header visually-hidden">Производители:</legend>
+              <h3 class="filter-section-header">Производители:</h3>
               <ul class="checklist">
                 <li class="checklist-item">
                   <input type="checkbox" class="visually-hidden">
