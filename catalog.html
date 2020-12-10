@@ -186,38 +186,42 @@
 
       </section>
       <section class="catalog">
-        <section class="sort-filter">
+        <div class="catalog-sorter">
           <form action="" class="sort-form">
             <fieldset class="sort-name">
               <legend class="visually-hidden">Сортировка</legend>
               <div class="sort-name-container">
-                <h3 class="sort-name-title">Сортировка:</h4>
-                <ul>
-                  <li>
+                <h3 class="sort-name-title">Сортировка:</h3>
+                <ul class="sorter-list">
+                  <li class="sorter-category">
                     <input type="radio" class="visually-hidden" id="sorting-price" name="sorting-filter" value="price" checked>
                     <label for="sorting-price">По цене</label>
                   </li>
-                  <li>
+                  <li class="sorter-category">
                     <input type="radio" class="visually-hidden" id="sorting-type" name="sorting-filter" value="type">
                     <label for="sorting-type">По типу</label>
                   </li>
-                  <li>
+                  <li class="sorter-category">
                     <input type="radio" class="visually-hidden" id="sorting-funk" name="sorting-filter" value="func">
                     <label for="sorting-funk">По функционалу</label>
                   </li>
                 </ul>
                 <ul class="sort-filter-arrows">
                   <li>
-                    <button class="button filter-button-arrow active-arrow"></button>
+                    <button class="button filter-button-arrow active-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 0L0 10h11z"></path></svg>
+                    </button>
                   </li>
                   <li>
-                    <button class="button filter-button-arrow"></button>
+                    <button class="button filter-button-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 10L0 0h11"></path></svg>
+                    </button>
                   </li>
                 </ul>
               </div>
             </fieldset>
           </form>
-        </section>
+        </div>
         <ul class="products-list">
           <li class="products-item">
             <div class="pruducts-buttons">
