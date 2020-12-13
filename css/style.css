@@ -1980,4 +1980,46 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   flex-direction: column;
   padding-bottom: 19px;
 }
+
+.products-item:hover{
+  box-shadow: 0 10px 25px 0 rgba(41,52,73,.5);
+}
+
+.product-buttons{
+  background-color: #fff;
+  width: 218px;
+  height: 170px;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* display: flex; */
+  display: none;
+}
+
+.pagination{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 52px 0 50px;
+  padding: 0;
+}
+
+.pagination-button {
+  padding: 11px 15px;
+  margin: 0 9px 10px 0;
+  background-color: #fff;
+  color:#000;
+  cursor: pointer;
+}
+
+.pagination-button-active{
+  background-color: #ee3643;
+  cursor: default;
+  color: #fff;
+}
+
+
+
 <script src="http://localhost:35729/livereload.js"></script>
