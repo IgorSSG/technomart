@@ -685,9 +685,11 @@ min-height:
   box-shadow: 0 10px 25px 0 rgba(41,52,73,.5);
 }
 
-.product-buttons{
-  display: block;
+.popular-products-item:hover .product-buttons{
+  display: flex;
 }
+
+
 
 .products-info{
   display: flex;
@@ -1282,15 +1284,6 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
 
 }
 
-.modal-active{
-  position: fixed;
-  top:50%;
-  left: 50%;
-
-  z-index: 2;
-
-  display: flex;
-}
 
 
 
@@ -1488,6 +1481,16 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
 .modal-map-iframe{
   border: 0;
 }
+
+
+.modal-active{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+}
+
 
 .user-profile{
   margin-left: auto;

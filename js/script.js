@@ -1,42 +1,30 @@
-// popups
+var MapPopup = document.querySelector('.modal-map');
+var FeedbackPopup = document.querySelector('.modal-feedback');
+var BascketPopup = document.querySelector('.modal-bascket');
 
-var buyButtons = document.querySelectorAll('.product-button-buy');
-var mapLink = document.querySelector('.about-us__link');
+var BuyButton = document.querySelector('.product-button-buy');
+var FeedbackButton = document.querySelector('.about-us-button-wide');
+var MapButton = document.querySelector('.about-us__link');
+var ModalClose = document.querySelector('.modal-close');
 
-var basketPopup = document.querySelector('.modal-basket');
-var mapPopup = document.querySelector('.modal-map');
-
-
-var closePopupButtons = document.querySelectorAll('.modal-close');
-var continueButton = document.querySelector('.modal-bascket-button-continue');
-
-
-mapLink && mapLink.addEventListener('click', function (e) {
+FeedbackButton.addEventListener('click', function (e){
   e.preventDefault();
-  mapPopup.classList.add('modal-show');
+  FeedbackPopup.classList.add('modal-active');
 });
 
-continueButton.addEventListener('click', function (e) {
+BuyButton.addEventListener('click', function (e){
   e.preventDefault();
-  basketPopup.classList.remove('modal-show');
+  BascketPopup.classList.add('modal-active');
 });
 
-for (var i = 0; i < closePopupButtons.length; i++) {
-  closePopupButtons[i].addEventListener('click', function () {
-    document.querySelector('.modal-show').classList.remove('modal-show');
-  });
-}
-
-window.addEventListener('keydown', function (e) {
-  if (e.keyCode === 27 && document.querySelector('.modal-show')) {
-    e.preventDefault();
-    document.querySelector('.modal-show').classList.remove('modal-show');
-  }
+MapButton.addEventListener('click', function (e){
+  e.preventDefault();
+  MapPopup.classList.add('modal-active');
 });
 
-var feedbackButton = document.querySelector('.button-feedback');
-var feedbackPopup = document.querySelector('.modal-feedback');
-
-feedbackButton && feedbackButton.addEventListener('click', function (e) {
+ModalClose.addEventListener('click', function (e){
   e.preventDefault();
-  feedbackPopup.classList.add('modal-show');
+  FeedbackPopup.classList.remove('modal-active');
+  MapPopup.classList.remove('modal-active');
+  BascketPopup.classList.remove('modal-active');
+});
