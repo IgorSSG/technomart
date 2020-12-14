@@ -16,7 +16,7 @@
       <div class="container">
         <!-- Верхний хедер -->
         <h2 class="visually-hidden"> Шапка сайта</h2>
-        <a class="logo" href="#">
+        <a class="logo" href="index.html">
           <img src="img\logo-technomart.svg" width="109px" height="19px" alt='Логотип интернет-магазина Техномарт'>
         </a>
         <div class="search-section">
@@ -92,9 +92,9 @@
     <!-- Навигационное меню -->
     <nav class="main-navigation container">
       <ul class="main-navigation-list ">
-        <li class=" main-navigation-item"><a href="">Главная</a></li>
+        <li class=" main-navigation-item"><a href="index.html">Главная</a></li>
         <li class=" main-navigation-item"><a href="">Компания</a></li>
-        <li class=" main-navigation-item"><a href="">Каталог</a></li>
+        <li class=" main-navigation-item"><a href="catalog.html">Каталог</a></li>
         <li class=" main-navigation-item"><a href="">Новости</a></li>
         <li class=" main-navigation-item"><a href="">Спецпредложения</a></li>
         <li class=" main-navigation-item"><a href="">Доставка</a></li>
@@ -379,7 +379,7 @@
       </section>
     </div>
     <div class="background-container">
-      <article class="about-tool">
+      <article class="about-tool container">
         <h3 class="about-tool-header">Пара слов о перфораторах</h3>
         <p class="about-tool-text">
           Перфоратор — универсальный строительный инструмент.
@@ -392,60 +392,73 @@
     </div>
     </main>
     <!-- Футер -->
-    <footer class="main-footer">
-      <h2 class="vissualy-hidden">Подвал</h2>
-      <section class="footer-first-line">
-        <!-- Верхняя часть футера -->
+    <footer class="main-footer ">
+      <h2 class="visually-hidden">Подвал</h2>
+      <section class="footer-top ">
+        <div class="footer-first-line container">
+          <!-- Верхняя часть футера -->
 
-        <div class="footer-left-block">
-          <a href="" class="footer-logo-link">
-            <img src="" alt="" class="footer-logo">
+
+          <a href="index.html" class="footer-logo-link">
+            <img src="img/logo-technomart.svg" width="138" height="23" alt="Логотип компании «Техномарт»">
           </a>
+          <ul class="footer-nav-list ">
+            <li class="footer-item"><a href="">Компания</a></li>
+            <li class="footer-item"><a href="">Новости</a></li>
+            <li class="footer-item catlog-page"><a href="catalog.html">Каталог</a></li>
+            <li class="footer-item"><a href="">Доставка</a></li>
+            <li class="footer-item"><a href="">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-second-line container">
           <p class="footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </br>
             <a href="" class="footer-phone">+7 (812) 555-05-55</a>
           </p>
-        </div>
-        <div class="footer-right-block">
-          <ul class="footer-nav-list">
-            <li><a href="" class="main-navigation-item">Главная</a></li>
-            <li><a href="" class="main-navigation-item">Компания</a></li>
-            <li><a href="" class="main-navigation-item">Каталог</a></li>
-            <li><a href="" class="main-navigation-item">Новости</a></li>
-            <li><a href="" class="main-navigation-item">Спецпредложения</a></li>
-            <li><a href="" class="main-navigation-item">Доставка</a></li>
-            <li><a href="" class="main-navigation-item">Контакты</a></li>
+          <ul class="footer-nav-list nav-list-bottom ">
+            <li class="footer-item"><a href="">Материалы</a></li>
+            <li class="footer-item"><a href="">Техника</a></li>
+            <li class="footer-item"><a href="">Инструмент</a></li>
+            <li class="footer-item"><a href="">Спецпредложения</a></li>
           </ul>
         </div>
       </section>
 
       <!--Нижняя часть футера  -->
 
-      <section class="footer-bottom">
-        <p class="footer-text"></p>
+      <section class="footer-bottom-background ">
+        <div class="bottom-footer-container container">
+        <p class="footer-text">© 2010–2020 Компания «Техномарт» <br>
+          Все права защищены</p>
         <ul class="social">
-          <li class=""><a href="" class="social-item"></a></li>
-          <li class=""><a href="" class="social-item"></a></li>
-          <li class=""><a href="" class="social-item"></a></li>
+          <li class="">
+          <a href="" class="social-item">
+            <img height="15" width="26" src="img/icons/vk-icon.svg" alt="VK">
+          </a>
+        </li>
+          <li class="">
+            <a href="" class="social-item">
+              <img height="22" width="12" src="img/icons/fb-icon.svg" alt="Facebook">
+            </a>
+          </li>
+          <li class="">
+            <a href="" class="social-item">
+              <img height="21" width="21" src="img/icons/insta-icon.svg" alt="Instagram">
+            </a>
+          </li>
         </ul>
-        <div class="footer__info-block">
-          <p class="footer__text">
+        <div class="footer-info-block">
+          <p class="footer-text ">
             Обратная связь:<br>
-            <a class="footer__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            <a class="footer-link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
-          <p class="footer__text">
+          <p class="footer-text">
             Разработано —<br>
-            <a class="footer__link" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">htmlacademy.ru</a>
+            <a class="footer-link" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">htmlacademy.ru</a>
           </p>
+        </div>
         </div>
       </section>
     </footer>
-    <aside class="modal modal-bascket">
-      <h2 class="modal-header modal-header-basket">Товар добавлен в корзину</h2>
-      <footer class="modal-footer">
-        <a href="" class="button">Оформить заказ</a>
-        <a href="" class="button">Продолжить покупки</a>
-      </footer>
-    </aside>
     <script src="http://localhost:35729/livereload.js"></script>
 </body>
 

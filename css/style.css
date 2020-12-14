@@ -1154,6 +1154,10 @@ margin: 0 20px 20px 0;
   margin-left: 59px;
 }
 
+.catlog-page {
+  opacity: .3;
+}
+
 .footer-item:hover{
   text-decoration: underline;
 }
@@ -1285,6 +1289,12 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
 
   z-index: 2;
 
+  display: flex;
+}
+
+
+
+.modal-show{
   display: flex;
 }
 
@@ -1474,6 +1484,7 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   box-shadow:0 0px 15px 0px rgba(0,0,0,.5);
   outline: 0;
   animation: bounce .6s;
+  display:flex;
 }
 
 .modal-map-iframe{
@@ -1524,6 +1535,14 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   opacity: .3;
 }
 
+.user-profile-link:active{
+  opacity: .3;
+}
+
+.user-profile-link:hover::before{
+  opacity:1;
+}
+
 .user-navigation-list{
   list-style: none;
   padding: 0;
@@ -1555,6 +1574,14 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   opacity: .3;
   outline: 0;
   margin: 0;
+}
+
+.log-out:hover{
+  opacity: 1;
+}
+
+.log-out:active{
+  opacity: .3
 }
 
 .user-navigation-item{
@@ -2020,6 +2047,35 @@ box-shadow:0 20px 40px 0 rgba(0,0,0,.75);
   color: #fff;
 }
 
+.background-container{
+  background-color: #f2f6f8;
+}
+
+.about-tool{
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 69px;
+  padding-top: 65px;
+
+}
+
+.about-tool-header{
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+
+}
+
+.about-tool-text{
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 25px 0 0;
+  align-self: stretch;
+}
 
 
 <script src="http://localhost:35729/livereload.js"></script>
