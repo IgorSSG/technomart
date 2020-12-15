@@ -693,6 +693,9 @@ min-height:
   display: flex;
 }
 
+.products-item:hover .product-buttons{
+  display: flex;
+}
 
 
 .products-info{
