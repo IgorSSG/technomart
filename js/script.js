@@ -28,3 +28,28 @@ ModalClose.addEventListener('click', function (e){
   MapPopup.classList.remove('modal-active');
   BascketPopup.classList.remove('modal-active');
 });
+
+
+window.addEventListener('keydown', function (e) {
+  if (e.keyCode === 27 && document.querySelector('.modal-active')) {
+    e.preventDefault();
+    document.querySelector('.modal-active').classList.remove('modal-active');
+  }
+});
+
+//services-slider
+
+var serviceSlides = document.querySelectorAll('.servises-slide');
+var serviceTabs = document.querySelectorAll('.servises-slider-button');
+
+if (serviceSlides.length) {
+  for (var i = 0; i < serviceTabs.length; i++) {
+    serviceTabs[i].addEventListener('click', function (e) {
+      document.querySelector('.slide-active').classList.remove('slide-active');
+      document.querySelector('.servises-slider-button-active').classList.remove('servises-slider-button-active');
+
+      serviceSlides[e.target.dataset.slide].classList.add('slide-active');
+      serviceTabs[e.target.dataset.slide].classList.add('servises-slider-button-active');
+    })
+  }
+}

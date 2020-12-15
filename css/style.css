@@ -196,6 +196,10 @@ background-color: #212a3a;
   background-color: #212a3a;
 }
 
+.upper-section-button-filled {
+    background-color: #ee3643;
+}
+
 .button{
   align-items: center;
   border: 0;
@@ -947,6 +951,8 @@ margin: 0 20px 20px 0;
   box-shadow: none;
 }
 
+
+
 .servises-slide{
   position: relative;
   flex-grow: 1;
@@ -960,7 +966,7 @@ margin: 0 20px 20px 0;
 
 }
 
-.slie-active{
+.slide-active{
   display: block
 }
 
